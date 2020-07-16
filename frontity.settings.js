@@ -2,8 +2,8 @@ const settings = {
   name: "codesandbox-frontity",
   state: {
     frontity: {
-      url: "https://test.frontity.io",
-      title: "Test Frontity Blog",
+      url: "https://wprevamp.com/projects/directory2/dev_react/",
+      title: "Prakash Tyata WordPress to React Test",
       description: "WordPress installation for Frontity development"
     }
   },
@@ -14,10 +14,11 @@ const settings = {
         theme: {
           menu: [
             ["Home", "/"],
-            ["Nature", "/category/nature/"],
             ["Travel", "/category/travel/"],
             ["Japan", "/tag/japan/"],
-            ["About Us", "/about-us/"]
+            ["Sample Page", "/sample-page/"],
+            ["Page", "/page/"],
+            ["About Us", "/about/"]
           ],
           featured: {
             showOnList: false,
@@ -30,7 +31,7 @@ const settings = {
       name: "@frontity/wp-source",
       state: {
         source: {
-          api: "https://test.frontity.io/wp-json"
+          api: "https://wprevamp.com/projects/directory2/dev_react/wp-json"
         }
       }
     },
